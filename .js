@@ -1,5 +1,7 @@
 function spinalCase(str) {
-   return str.split(/\s|_|(?=[A-Z])/).join('-').toLowerCase();
+   return str.split(/\s|_|(?=[A-Z])/).join('-').toLowerCase(); // Split str if a whitespace character [\s] or underscore character [_] is encountered
+                                                               // or is followed by an uppercase letter [(?=[A-Z])]
+                                                               // then join the array using a hyphen (-) & lowercase the whole resulting string
 }
 
 spinalCase('This Is Spinal Tap');
@@ -7,13 +9,9 @@ spinalCase("thisIsSpinalTap"); // return "this-is-spinal-tap"
 spinalCase("The_Andy_Griffith_Show"); // return "the-andy-griffith-show"
 
 
-Split the string at one of the following conditions (converted to an array)
 
-a whitespace character [\s] is encountered
-underscore character [_] is encountered
-or is followed by an uppercase letter [(?=[A-Z])]
-Join the array using a hyphen (-)
-Lowercase the whole resulting string
+
+
                                
                                
                                
