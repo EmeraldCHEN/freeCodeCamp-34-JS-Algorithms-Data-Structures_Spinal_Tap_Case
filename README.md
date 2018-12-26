@@ -1,1 +1,1 @@
-# freeCodeCamp-34-JS-Algorithms-Data-Structures_Spinal_Tap_Case
+This program would convert a string to spinal case that is all-lowercase-words-joined-by-dashes.
