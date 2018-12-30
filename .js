@@ -23,19 +23,9 @@ function spinalCase2(str) {
   
     // Replace space and underscore with -
     return str.replace(regex, '-').toLowerCase();
-  }
-
-
-
-
-
-
-
-                               
-                               
-                               
-                               
-                               
+}
+                                                                                     
+                                                            
                                
                                
  // Retrieved from https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/spinal-tap-case/                              
